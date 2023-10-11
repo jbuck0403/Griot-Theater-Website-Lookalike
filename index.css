@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
 
 .nav {
@@ -96,6 +97,7 @@
 
 .show-details-title {
   font-size: 1.5em;
+  font-weight: bold;
 }
 
 .read-more {
