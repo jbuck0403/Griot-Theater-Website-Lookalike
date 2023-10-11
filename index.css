@@ -36,6 +36,11 @@
   padding-left: 90px;
 }
 
+.nav-bar-links div:hover {
+  color: rgb(255, 179, 0);
+  cursor: pointer;
+}
+
 .featured-container {
   display: inline-block;
 }
