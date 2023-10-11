@@ -134,6 +134,10 @@
   width: 28px;
 }
 
+.text-after-thumbnail {
+  margin-left: 10px;
+}
+
 .title {
   font-size: 60px;
   padding: 30px;
