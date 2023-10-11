@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav {
+  width: 100%;
+  padding: 30px;
+  background-color: rgb(1, 1, 1);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+}
+
+.top-bar {
+  height: 100px;
+}
+
+.nav-bar-name {
+  color: white;
+  font-size: 40px;
+}
+
+.nav-bar-links {
+  padding: 20px;
+  display: flex;
+  font-size: 20px;
+  padding-right: 300px;
+}
+
+.nav-bar-links div {
+  color: white;
+  padding-left: 90px;
+}
+
+.featured-container {
+  display: inline-block;
+}
+
+.featured-text {
+  color: white;
+  width: 100%;
+  text-align: center;
+  font-size: 200px;
+  position: absolute;
+  top: 46%;
+}
+
+.featured-container img {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.upcoming-shows-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.show-date {
+  background-color: rgb(232, 228, 228);
+  width: 1000px;
+  padding: 5px 50px;
+  border: 2px solid rgb(197, 194, 194);
+  font-size: 20px;
+}
+
+.show-info {
+  padding: 30px 0px;
+  width: 1000px;
+  height: auto;
+  border-bottom: solid rgb(197, 194, 194);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.show-info img {
+  width: 320px;
+  height: 230px;
+}
+
+.show-details {
+  font-size: 20px;
+}
+
+.show-details div {
+  padding: 10px;
+}
+
+.show-details-title {
+  font-size: 1.5em;
+}
+
+.read-more {
+  background-color: rgb(255, 179, 0);
+  color: white;
+  font-size: 25px;
+  height: 60px;
+  width: 150px;
+  margin-left: 100px;
+  box-shadow: 1px 1px 1px 1px black;
+}
+
+.read-more:active {
+  transform: translate(2px, 2px);
+  box-shadow: -1px -1px 1px 1px black;
+}
+
+.footer {
+  height: 500px;
+  justify-content: space-around;
+}
+
+.map-img {
+  height: 300px;
+  width: auto;
+}
+
+.footer-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer-info img {
+  height: 25px;
+  width: 28px;
+}
+
+.title {
+  font-size: 60px;
+  padding: 30px;
+}
+
+.footer-column {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  padding: 30px;
+  width: 400px;
+}
