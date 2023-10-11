@@ -157,3 +157,8 @@
   padding: 30px;
   width: 400px;
 }
+
+.footer-column div:hover {
+  color: rgb(255, 179, 0);
+  cursor: pointer;
+}
